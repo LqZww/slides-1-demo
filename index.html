@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>轮播图</title>
+  <link rel="stylesheet" href="a.css">
+  <style>
+    .images {
+      display: flex;
+      align-items: flex-start;
+      transition: transform 0.5s;
+    }
+
+    .window {
+      width: 300px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <div class="images" id='images'>
+      <img src="https://www.dogbreedslist.info/uploads/allimg/dog-pictures/Cavalier-King-Charles-Spaniel-1.jpg"
+        width=300 alt="" height=225>
+      <img src="https://www.dogbreedslist.info/uploads/allimg/dog-pictures/Beagle-1.jpg" width=300 alt="" height=225>
+      <img src="https://www.dogbreedslist.info/uploads/allimg/dog-pictures/French-Bulldog-1.jpg" width=300 alt=""
+        height=225>
+
+    </div>
+  </div>
+
+  <span id="buttons">
+    <span>第1张</span>
+    <span>第2张</span>
+    <span>第3张</span>
+  </span>
+
+</body>
+<script src="./b.js"></script>
+
+</html>
